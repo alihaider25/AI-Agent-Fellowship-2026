@@ -1,6 +1,6 @@
 # Assignment 4 - Prompt Engineering Experiments
 
-## Step 1: Experiment 1 – Role Prompting
+## Experiment 1 : Role Prompting
 
 ### What is Role Prompting?
 
@@ -53,57 +53,50 @@ The AI answered like a teacher and used simple language with an example. It also
 
 ### Improvement
 
-```
+
 Explain Python loops in simple English.
 Use two real-life examples and include a small Python code example.
-```
+
 
 ---
 
-## Step 2: Experiment 2 – Chain-of-Thought Prompting
+## Experiment 2 : Chain-of-Thought Prompting
 
 ### Prompt
 
 ```
-Think step by step.
-A shop sells a laptop for $1000.
-A customer gets a 10% discount and then pays 5% tax.
-Calculate the final price and explain every step.
+As a teacher, explain how an LLM (Large Language Model) processes a
+prompt, step by step, so my students can follow along.
 ```
 
 ### Output
 
 ```
-Let's solve this step by step.
+Step 1: Tokenization — the input text is broken into small units called tokens.
+Step 2: Embedding — each token is converted into a numerical vector.
+Step 3: Transformer layers — the model processes these vectors using
+        self-attention to understand relationships between words.
+Step 4: Prediction — the model predicts the most likely next token.
+Step 5: Repeat — this process repeats token by token until the full
+        response is generated.
 
-Step 1: Find the discount amount.
-  10% of $1000 = 0.10 × 1000 = $100
-
-Step 2: Subtract the discount from the original price.
-  $1000 - $100 = $900
-
-Step 3: Find the tax amount (tax is applied AFTER the discount).
-  5% of $900 = 0.05 × 900 = $45
-
-Step 4: Add the tax to the discounted price.
-  $900 + $45 = $945
-
-Final Answer: The customer pays $945.
+Final Answer: An LLM turns text into numbers, understands context using
+attention, then predicts one word at a time to build its response.
 ```
 
 ### Observation
 
-The AI explained every calculation instead of only giving the final answer. It also correctly figured out on its own that the tax should be applied after the discount, not before, which is a common mistake if the order isn't made explicit.
+The AI broke down a complex technical process into simple, numbered steps instead of just saying "LLMs process text using transformers." This made it easier to understand how a prompt actually turns into a response.
 
 ### Improvement
 
-```
-Explain every calculation in numbered steps.
-```
+
+Explain each step with one simple real-life analogy so it's easier for beginners to understand.
+
 
 ---
 
-## Step 3: Experiment 3 – Few-Shot Prompting
+## Experiment 3 : Few-Shot Prompting
 
 ### What is Few-Shot Prompting?
 
@@ -139,15 +132,14 @@ The AI followed the exact pattern shown in the examples and gave only the conver
 
 ### Improvement
 
-```
 Convert each sentence into past tense. Follow the examples.
 After converting, also mention whether the verb used is regular or
 irregular.
-```
+
 
 ---
 
-## Step 4: Experiment 4 – Structured Output (JSON)
+## Experiment 4 – Structured Output (JSON)
 
 ### What is Structured Output?
 
@@ -166,8 +158,8 @@ Text: "Ali is 16 years old and scored 87 marks in Mathematics."
 
 ```json
 {
-  "name": "Ali",
-  "age": 16,
+  "name": "Ali Haider",
+  "age": 21,
   "subject": "Mathematics",
   "marks": 87
 }
@@ -179,15 +171,15 @@ The AI returned clean JSON with no extra text or explanation, exactly matching t
 
 ### Improvement
 
-```
+
 Extract the following details from the text and return ONLY valid JSON
 with keys: name, age, subject, marks.
 If any value is missing in the text, use null instead of guessing.
-```
+
 
 ---
 
-## Step 5: Experiment 5 – Prompt Optimization
+## Experiment 5 : Prompt Optimization
 
 ### What is Prompt Optimization?
 
@@ -212,12 +204,7 @@ every programming language.
 
 The output was correct but too general — it didn't mention Python specifically, gave no example, and could apply to any programming language, making it less useful for a student trying to learn Python.
 
-### Improvement
 
-```
-Explain Python for loops to a beginner student in simple English.
-Include one small code example and explain what each line does.
-```
 
 ### Output (After)
 
@@ -239,10 +226,12 @@ So this code will print "Hello, world!" three times in a row.
 
 ### Observation (After)
 
-The improved prompt produced a much more useful answer — it was specific to Python, included real code, and explained the code line by line, which the first version completely lacked.
+The improved prompt produced a much more useful answer it was specific to Python, included real code, and explained the code line by line, which the first version completely lacked.
+
+### Improvement
+
+Explain Python for loops to a beginner student in simple English.
+Include one small code example and explain what each line does.
 
 ---
 
-## Overall Conclusion
-
-Across all five experiments, adding clear instructions — a role, a "think step by step" request, examples, a strict format, or specific details — made the AI's answers more accurate, more structured, and more useful. The plain, vague prompts (Experiment 5's "before" version) gave correct but generic answers, while adding detail consistently produced sharper, more usable results.
