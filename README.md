@@ -4,7 +4,7 @@
 
 Hello! My name is **Ali Haider**.
 
-I am passionate about Artificial Intelligence, Natural Language Processing (NLP), and Large Language Models (LLMs).
+I'm an aspiring **AI/NLP Engineer** with a strong interest in **Natural Language Processing**,**Large Language Models (LLMs)** and **Generative AI**.
 
 ---
 
@@ -22,19 +22,35 @@ AI Agent Fellowship 2026
 
 ## 🎯 Career Goals
 
-I aim to become an AI/NLP Engineer specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Generative AI. My goal is to build intelligent AI applications that solve real-world problems while continuously improving my practical skills
+I aim to become an AI/NLP Engineer specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Generative AI. My goal is to build intelligent, production-ready AI applications that solve real-world problems while continuously sharpening my skills through hands-on projects.
+
 
 ---
 
 ## 💻 Technical Skills
 
-- Python
-- Machine Learning(ML)
-- Natural Language Processing (NLP)
-- Large Language Models(LLMs)
-- Hugging Face Transformers
-- Prompt Engineering
-- Git & GitHub
+### 🧠 Artificial Intelligence & NLP
+- **Machine Learning (ML)** 
+- **Natural Language Processing (NLP)** 
+- **Large Language Models (LLMs)**
+- **Hugging Face Transformers** 
+- **Prompt Engineering** 
+
+### 🐍 Languages & Backend
+- **Python** 
+- **Flask**
+- **PHP** 
+
+### 🌐 Frontend Development
+- **HTML5 & CSS3**
+- **JavaScript** 
+- **Bootstrap**
+
+### 🗄️ Databases
+- **MySQL**
+
+### 🔧 Version control
+- **Git & GitHub:**
 
 ---
 
@@ -49,6 +65,6 @@ During this fellowship, I want to:
 - **Career Readiness:** Accelerate my growth toward a full-time AI Engineering career.
 
 ## Contact
-- **Email** : ahwebdeveloper856@gmail.com
-- **LinkedIn** : https://www.linkedin.com/in/ali-haider-13238b2a2?utm_source=share_via&utm_content=profile&utm_medium=member_android
+- **Email** : alihaider25.dev@gmail.com
+- **LinkedIn** : www.linkedin.com/in/ali-haider-13238b2a2
 
