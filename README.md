@@ -37,6 +37,7 @@ if incase this not Run ,try to run below command in terminal
 ```bash
 python -m streamlit run app.py
 ```
+
 ## Security note
 
 Never paste real API keys directly into `app.py` or any other tracked file.
