@@ -65,5 +65,5 @@ During this fellowship, I want to:
 - **Career Readiness:** Accelerate my growth toward a full-time AI Engineering career.
 
 ## Contact
-- **Email** : alihaider25.dev@gmail.com
-- **LinkedIn** : www.linkedin.com/in/ali-haider-13238b2a2
+**Email** : alihaider25.dev@gmail.com
+**LinkedIn** : www.linkedin.com/in/ali-haider-13238b2a2
