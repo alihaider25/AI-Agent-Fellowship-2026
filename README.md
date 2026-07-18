@@ -1,6 +1,6 @@
 # ⚡ FLASH AI
 
-A multi-provider streaming chat workspace built with Streamlit — Gemini 2.5
+A multi-provider streaming chat workspace built with Streamlit, Gemini 2.5
 Flash, GPT-4o, and Groq, all switchable from one modern interface.
 
 ## Setup
