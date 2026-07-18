@@ -16,7 +16,6 @@ OPENROUTER_API_KEY= PASTE_YOUR_OPENROUTER_API_KEY_HERE
 
 All the four maodel used Same OPENROUTER API key and it work according to model automatically
 ```
-
 You only need the ones you plan to use — a model without a configured key
 will just show a red "No backend key" status in the sidebar instead of
 crashing the app.
